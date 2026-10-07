@@ -1,0 +1,55 @@
+{
+  "name": "@looot/ai-sdk",
+  "version": "0.1.0",
+  "description": "looot tools for the Vercel AI SDK: search a 2,500-endpoint data catalog, see the price, run it, read the balance.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepare": "npm run build",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --test test/tools.test.ts",
+    "scan": "bash scripts/leak-scan.sh .",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "keywords": [
+    "ai",
+    "ai-sdk",
+    "tools",
+    "looot",
+    "data-enrichment",
+    "agents"
+  ],
+  "license": "MIT",
+  "homepage": "https://looot.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loootai/looot-ai-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/loootai/looot-ai-sdk/issues"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "peerDependencies": {
+    "ai": ">=6.0.0 <8",
+    "zod": "^3.25.76 || ^4.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "ai": "7.0.126",
+    "typescript": "5.9.3",
+    "zod": "4.6.5"
+  }
+}
