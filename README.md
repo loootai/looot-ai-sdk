@@ -1,4 +1,8 @@
+<p align="center"><img src="assets/hero.png" alt="looot-ai-sdk: looot tools for the Vercel AI SDK" width="100%"></p>
+
 # @looot/ai-sdk
+
+[![License](https://img.shields.io/github/license/loootai/looot-ai-sdk)](LICENSE) [![Release](https://img.shields.io/github/v/release/loootai/looot-ai-sdk)](https://github.com/loootai/looot-ai-sdk/releases) [![Docs](https://img.shields.io/badge/docs-docs.looot.ai-12A06A)](https://docs.looot.ai)
 
 [looot](https://looot.ai) tools for the [Vercel AI SDK](https://ai-sdk.dev). looot gives an agent one key and one prepaid balance for 2,500+ data API endpoints: work emails, phone numbers, company and people search, Google results, web pages, LinkedIn profiles. The agent searches the catalog, sees the price before it runs, and pays per call. A failed call costs nothing. Top up from $5.
 
