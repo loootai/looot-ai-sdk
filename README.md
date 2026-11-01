@@ -4,18 +4,18 @@
 
 [![License](https://img.shields.io/github/license/loootai/looot-ai-sdk)](LICENSE) [![Release](https://img.shields.io/github/v/release/loootai/looot-ai-sdk)](https://github.com/loootai/looot-ai-sdk/releases) [![Docs](https://img.shields.io/badge/docs-docs.looot.ai-12A06A)](https://docs.looot.ai)
 
-[looot](https://looot.ai) tools for the [Vercel AI SDK](https://ai-sdk.dev). looot gives an agent one key and one prepaid balance for 2,500+ data API endpoints: work emails, phone numbers, company and people search, Google results, web pages, LinkedIn profiles. The agent searches the catalog, sees the price before it runs, and pays per call. A failed call costs nothing. Top up from $5.
+[looot](https://looot.ai) tools for the [Vercel AI SDK](https://ai-sdk.dev). looot gives an agent one key and one prepaid balance for 4,200+ data API endpoints: work emails, phone numbers, company and people search, Google results, web pages, LinkedIn profiles. The agent searches the catalog, sees the price before it runs, and pays per call. A failed call costs nothing. Top up from $5.
 
 ## Install for agents
 
 ```bash
-npm install github:loootai/looot-ai-sdk ai zod
+npm install @looot/ai-sdk ai zod
 claude mcp add --transport http looot https://api.looot.ai/mcp
 ```
 
 See also: [awesome-looot-use-cases](https://github.com/loootai/awesome-looot-use-cases) (copy-paste recipes) and [awesome-gtm](https://github.com/loootai/awesome-gtm) (open-source GTM tools).
 
-> Status: public, MIT, not on npm yet. Install from GitHub until the first release.
+> Status: public, MIT, on npm as [`@looot/ai-sdk`](https://www.npmjs.com/package/@looot/ai-sdk).
 
 ## Example
 
@@ -51,7 +51,7 @@ A resolved `runOperation` is not success. A bad input answers with `status: "fai
 ## Install
 
 ```bash
-npm install github:loootai/looot-ai-sdk ai zod    # until the npm release
+npm install @looot/ai-sdk ai zod
 ```
 
 Peer dependencies: `ai` 6 or 7, `zod` 3.25.76+ or 4.1.8+. Node 22.18+.

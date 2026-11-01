@@ -2,12 +2,12 @@
 
 > looot tools for the Vercel AI SDK: search, inspect, run, balance.
 
-looot is one key and one prepaid balance for 2,500+ data API endpoints from 90+ providers. The agent searches the catalog, sees the price before it runs, and pays per call.
+looot is one key and one prepaid balance for 4,200+ data API endpoints from 300+ providers. The agent searches the catalog, sees the price before it runs, and pays per call.
 
 ## Install
 
 - Remote MCP server: `claude mcp add --transport http looot https://api.looot.ai/mcp`
-- This repo: npm install github:loootai/looot-ai-sdk ai zod
+- This repo: npm install @looot/ai-sdk ai zod
 
 ## Links
 
